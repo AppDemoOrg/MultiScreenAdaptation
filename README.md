@@ -1,12 +1,12 @@
 # MultiScreenAdaptation     
 
-## 密度DPI、密度DIR、密度映射关系      
-密度DPI=480   xxxhdpi    密度3.0       
-密度DPI=400   xxhdpi     密度2.5    
-密度DPI=320   xhdpi      密度2.0    
-密度DPI=240   hdpi       密度1.5    
-密度DPI=160   mdpi       密度1.0（基准）   
-密度DPI=120   ldpi       密度0.75    
+## 密度DPI、密度DIR、密度、VALUES(dimens)、XML(@dimen/dp_N)映射关系      
+密度DPI=480   xxxhdpi    密度3.0              values-wNdp(N=Width/密度)         @dimen/dp_N=Ydp(Y=PX/密度,N是可变的)                
+密度DPI=400   xxhdpi     密度2.5              values-wNdp(N=Width/密度)         @dimen/dp_N=Ydp(Y=PX/密度,N是可变的)           
+密度DPI=320   xhdpi      密度2.0              values-wNdp(N=Width/密度)         @dimen/dp_N=Ydp(Y=PX/密度,N是可变的)            
+密度DPI=240   hdpi       密度1.5              values-wNdp(N=Width/密度)         @dimen/dp_N=Ydp(Y=PX/密度,N是可变的)             
+密度DPI=160   mdpi       密度1.0（基准）       values-wNdp(N=Width/密度)         @dimen/dp_N=Ydp(Y=PX/密度,N是可变的)            
+密度DPI=120   ldpi       密度0.75             values-wNdp(N=Width/密度)         @dimen/dp_N=Ydp(Y=PX/密度,N是可变的)          
 
 
 ## 根据屏幕宽度的适配   

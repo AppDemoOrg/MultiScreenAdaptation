@@ -1,8 +1,5 @@
 # MultiScreenAdaptation
 
-## 参考资料：    
-[一个强大的安卓开发屏幕适配工具库](https://github.com/yatoooon/AndroidScreenAdaptation)      
-
 ## ViVo_X9 Device Info     
 Width（PX）= 1080     
 Height（PX）= 1920      
@@ -42,7 +39,7 @@ art中Android设备分辨率统计，数据来源[友盟统计](https://www.umen
 1184x720以及1776x1080的屏幕分辨率实际上是1280x720和1920x1080；     
 他们的系统使用了虚拟按键，导致可显示区域的减少；     
 
-## 参考资料
-[Android 屏幕适配方案](https://www.jianshu.com/p/f33c03a0d3a4)        
-
+## 参考资料    
+[一个强大的安卓开发屏幕适配工具库](https://github.com/yatoooon/AndroidScreenAdaptation)      
+[Android 屏幕适配方案](https://www.jianshu.com/p/f33c03a0d3a4)         
 

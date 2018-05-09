@@ -6,11 +6,11 @@
     android:orientation="vertical" >
 
     <TextView
-        android:layout_width="240px"
-        android:layout_height="120px"
-        android:layout_marginLeft="240px"
-        android:layout_marginRight="240px"
-        android:layout_marginTop="120px"
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginLeft="@dimen/dp_80"
+        android:layout_marginRight="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_40"
         android:background="#89ff89"
         android:gravity="center"
         android:text="Hello World!" />

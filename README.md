@@ -1,12 +1,12 @@
 # MultiScreenAdaptation     
 
-## 密度DPI与DIR映射关系      
-DPI=480 xxxhdpi: 3.0       
-DPI=400 xxhdpi: 2.5    
-DPI=320 xhdpi：2.0    
-DPI=240 hdpi：1.5    
-DPI=160 mdpi：1.0（基准）   
-DPI=120 ldpi：0.75    
+## 密度DPI、密度DIR、密度映射关系      
+密度DPI=480   xxxhdpi    密度3.0       
+密度DPI=400   xxhdpi     密度2.5    
+密度DPI=320   xhdpi      密度2.0    
+密度DPI=240   hdpi       密度1.5    
+密度DPI=160   mdpi       密度1.0（基准）   
+密度DPI=120   ldpi       密度0.75    
 
 
 ## 根据屏幕宽度的适配   

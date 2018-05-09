@@ -12,8 +12,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // 800x480 - Inch4.0
-        // 1280x720 - Inch4.7
+        // 800x480 - Inch4.0  - 密度1.5 - 密度DPI240 - value-w320dp
+        // 1280x720 - Inch4.7 - 密度2 - 密度DPI320 - value-w360dp
+        // 1920x1080 - Inch5.5 - 密度3 - 密度DPI480 - value-w360dp
         getScreenInfo();
         getDeviceInch();
     }

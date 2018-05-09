@@ -13,7 +13,7 @@
         android:layout_marginTop="@dimen/dp_40"
         android:background="#89ff89"
         android:gravity="center"
-        android:text="Hello World!" />
+        android:text="已适配" />
 
     <TextView
         android:layout_width="240px"
@@ -23,6 +23,6 @@
         android:layout_marginTop="120px"
         android:background="#89ff89"
         android:gravity="center"
-        android:text="Hello World!" />
+        android:text="未适配" />
 
 </LinearLayout>

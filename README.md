@@ -34,4 +34,5 @@
 2、[Android 屏幕适配方案](https://www.jianshu.com/p/f33c03a0d3a4)         
 3、[android屏幕适配，自动生成不同的dimens.xml详解](https://blog.csdn.net/hnzcdy/article/details/50628993)   
 4、[安卓屏幕完美适配方案——独家秘笈](https://blog.csdn.net/jiashuai94/article/details/77639511)    
+5、[Android屏幕适配规则](https://blog.csdn.net/mydreamongo/article/details/45366247)      
 

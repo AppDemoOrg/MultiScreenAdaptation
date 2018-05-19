@@ -1,12 +1,12 @@
 # MultiScreenAdaptation     
 
 ## 密度(DPI)、密度DIR、values-wNdp、(px/dp换算)、XML(realDp - @dimen/dp_n)映射关系      
-密度 3.0(480)      xxxhdpi  values-wNdp(N=Width/3.0)   1dp=3.0px   realDp=realPx/3.0  (n=readDp*Width/3.0/240)                
-密度 2.5(400)      xxhdpi   values-wNdp(N=Width/2.5)   1dp=2.5px   realDp=realPx/2.5  (n=readDp*Width/2.5/240)           
-密度 2.0(320)      xhdpi    values-wNdp(N=Width/2.0)   1dp=2.0px   realDp=realPx/2.0  (n=readDp*Width/2.0/240)            
-密度 1.5(240)      hdpi     values-wNdp(N=Width/1.5)   1dp=1.5px   realDp=realPx/1.5  (n=readDp*Width/1.5/240)             
-密度 1.0(160,基准) mdpi     values-wNdp(N=Width/1.0)    1dp=1px    realDp=realPx/1.0   (n=readDp*Width/1.0/240)            
-密度0.75(120)      ldpi     values-wNdp(N=Width/0.75)   1dp=0.75px  realDp=realPx/0.75 (n=readDp*Width/0.75/240)          
+密度 3.0(480)  xxxhdpi  values-wNdp(N=Width/3.0)   1dp=3.0px   realDp=realPx/3.0   (n=readDp*Width/3.0/240)                
+密度 2.5(400)  xxhdpi   values-wNdp(N=Width/2.5)   1dp=2.5px   realDp=realPx/2.5   (n=readDp*Width/2.5/240)           
+密度 2.0(320)  xhdpi    values-wNdp(N=Width/2.0)   1dp=2.0px   realDp=realPx/2.0   (n=readDp*Width/2.0/240)            
+密度 1.5(240)  hdpi     values-wNdp(N=Width/1.5)   1dp=1.5px   realDp=realPx/1.5   (n=readDp*Width/1.5/240)             
+密度 1.0(160)  mdpi     values-wNdp(N=Width/1.0)   1dp=1px     realDp=realPx/1.0   (n=readDp*Width/1.0/240)            
+密度0.75(120)  ldpi     values-wNdp(N=Width/0.75)  1dp=0.75px  realDp=realPx/0.75  (n=readDp*Width/0.75/240)          
 
 ## 根据屏幕宽度的适配   
 1、Android 不止提供了根据分辨率的适配规则 ，也提供了屏幕宽度限定进行的适配方式；   

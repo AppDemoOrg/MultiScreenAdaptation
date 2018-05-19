@@ -12,9 +12,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // 800x480 - Inch4.0  - 密度1.5 - 密度DPI240 - value-w320dp
-        // 1280x720 - Inch4.7 - 密度2 - 密度DPI320 - value-w360dp
-        // 1920x1080 - Inch5.5 - 密度3 - 密度DPI480 - value-w360dp
+
+        // 已适配 800x480 - Inch4.0  - 密度1.5 - 密度DPI240 - value-w320dp
+        // 已适配 1280x720 - Inch4.7 - 密度2 - 密度DPI320 - value-w360dp
+        // 已适配 1920x1080 - Inch5.5 - 密度3 - 密度DPI480 - value-w360dp
+
         getScreenInfo();
         getDeviceInch();
     }
@@ -26,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         int height =metric.heightPixels;  //高度（PX）
         float density =metric.density;  //密度（0.75 / 1.0 / 1.5）
         int densityDpi =metric.densityDpi;  //密度DPI（120 / 160 / 240）
-        Logger.d("宽度（PX）= "+width+", 高度（PX）= "+height+", 密度 = "+density+", 密度DPI = "+densityDpi);
+        Logger.d("宽度（px）= "+width+", 高度（px）= "+height+", 密度 = "+density+", 密度dpi = "+densityDpi);
     }
 
     // 获取设备的物理尺寸

@@ -113,11 +113,11 @@ public class DimenTool {
             System.out.println(w820);
 
             //将新的内容，写入到指定的文件中去
-            //writeFile(w240file, w240.toString());
+            writeFile(w240file, w240.toString());
             writeFile(w270file, w270.toString());
-            //writeFile(w320file, w320.toString());
-            //writeFile(w360file, w360.toString());
-            //writeFile(w480file, w480.toString());
+            writeFile(w320file, w320.toString());
+            writeFile(w360file, w360.toString());
+            writeFile(w480file, w480.toString());
             writeFile(w540file, w540.toString());
             writeFile(w600file, w600.toString());
             writeFile(w720file, w720.toString());

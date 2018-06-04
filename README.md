@@ -29,6 +29,9 @@
 2、1184x720以及1776x1080的屏幕分辨率实际上是1280x720和1920x1080；      
    他们的系统使用了虚拟按键，导致可显示区域的减少；      
 
+## 相关项目
+1、[AndroidScreenAdaptation](https://github.com/yatoooon/AndroidScreenAdaptation)    
+
 ## 参考资料    
 1、[一个强大的安卓开发屏幕适配工具库](https://github.com/yatoooon/AndroidScreenAdaptation)      
 2、[Android 屏幕适配方案](https://www.jianshu.com/p/f33c03a0d3a4)         

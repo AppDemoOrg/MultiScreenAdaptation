@@ -1,5 +1,7 @@
 # MultiScreenAdaptation     
 
+1、待阅读[腾讯面试后感悟的Android适配原理](https://blog.csdn.net/a358583166/article/details/53285670)   
+
 ## 密度(DPI)、密度DIR、values-wNdp、(px/dp换算)、XML(realDp - @dimen/dp_n)映射关系      
 密度 3.0(480)  xxxhdpi  values-wNdp(N=Width/3.0)   1dp=3.0px   realDp=realPx/3.0   (n=readDp*240/N)                
 密度 2.5(400)  xxhdpi   values-wNdp(N=Width/2.5)   1dp=2.5px   realDp=realPx/2.5   (n=readDp*240/N)           
